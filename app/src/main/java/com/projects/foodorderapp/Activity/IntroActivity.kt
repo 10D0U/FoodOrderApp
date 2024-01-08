@@ -1,7 +1,9 @@
 package com.projects.foodorderapp.Activity
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.core.content.ContextCompat
 import androidx.viewbinding.ViewBinding
 import com.projects.foodorderapp.R
 import com.projects.foodorderapp.databinding.ActivityIntroBinding
@@ -15,6 +17,7 @@ class IntroActivity : BaseActivity() {
         setContentView(binding.root)
 
         setVariable()
+        window.statusBarColor = Color.parseColor("#FFE4B5")
     }
 
     private fun setVariable() {
