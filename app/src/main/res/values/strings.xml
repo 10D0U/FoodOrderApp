@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FoodOrderApp</string>
+    <string name="orange_background">Orange Background</string>
+    <string name="intro_pic">Intro Pic</string>
+    <string name="arc">Arc</string>
+    <string name="welcome_text">Welcome to Food City</string>
+    <string name="intro_description">Just confirm your order and enjoy our delicious fastest delivery</string>
+    <string name="log_in">Login</string>
+    <string name="register">Register</string>
+</resources>
