@@ -5,6 +5,15 @@
     <string name="arc">Arc</string>
     <string name="welcome_text">Welcome to Food City</string>
     <string name="intro_description">Just confirm your order and enjoy our delicious fastest delivery</string>
-    <string name="log_in">Login</string>
-    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="food">Food</string>
+    <string name="app">App</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="already_user">Already a User? Login</string>
+    <string name="or">OR</string>
+    <string name="have_no_account">"Don't have an account? "</string>
+    <string name="sign_up">Sign Up</string>
 </resources>

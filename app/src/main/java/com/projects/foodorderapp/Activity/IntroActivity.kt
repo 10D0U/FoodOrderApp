@@ -1,5 +1,6 @@
 package com.projects.foodorderapp.Activity
 
+import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -21,8 +22,16 @@ class IntroActivity : BaseActivity() {
     }
 
     private fun setVariable() {
-        binding.loginButton.setOnClickListener {  }
+        binding.loginButton.setOnClickListener {
+            if (auth.currentUser != null)
+                startActivity(Intent(this, MainActivity::class.java))
+            else
+                startActivity(Intent(this, LoginActivity::class.java))
 
-        binding.registerButton.setOnClickListener {  }
+        }
+
+        binding.signupButton.setOnClickListener {
+            startActivity(Intent(this, SignupActivity::class.java))
+        }
     }
 }

@@ -8,8 +8,9 @@ import com.google.firebase.database.FirebaseDatabase
 import com.projects.foodorderapp.R
 
 open class BaseActivity : AppCompatActivity() {
-    private lateinit var auth: FirebaseAuth
-    private lateinit var database: FirebaseDatabase
+    protected lateinit var auth: FirebaseAuth
+    protected lateinit var database: FirebaseDatabase
+    public val TAG: String = "FOODORDER"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
