@@ -16,4 +16,11 @@
     <string name="or">OR</string>
     <string name="have_no_account">"Don't have an account? "</string>
     <string name="sign_up">Sign Up</string>
+    <string name="welcome">Welcome</string>
+    <string name="username">Scarlet Johnson</string>
+    <string name="name">Name</string>
+    <string name="search_food">Search Food</string>
+    <string name="best_foods">Today\'s Best Foods</string>
+    <string name="view_all">view all</string>
+    <string name="choose_category">Choose Category</string>
 </resources>
